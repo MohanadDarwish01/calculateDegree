@@ -4,32 +4,32 @@ let calculateDegree = () => {
     let degree = input.value;
     if(degree < 50){
         if( degree >= 0){
-            p.innerText = "يا سااااااقط" ;
+            p.innerText = "You Are Fail" ;
         }
         else{
-            p.innerText = "رقم غير صحيح" ;
+            p.innerText = "Invalid Number" ;
 
         }
     
     }
     else{
         if(degree < 65){
-            p.innerText = "مقبول";
+            p.innerText = "You Are Pass";
         }
         else{
             if(degree < 75){
-                p.innerText = "جيد";
+                p.innerText = "You Are Good";
             }
             else{
                 if(degree < 85){
-                    p.innerText = "جيد جدا";
+                    p.innerText = "You Are Very Good";
                 }
                 else{
                     if(degree <= 100){
-                        p.innerText = "ممتاز";
+                        p.innerText = "excellent";
                     }
                     else{
-                        p.innerText = "رقم غير صحيح" ;
+                        p.innerText = "Invalid Number" ;
                     }
                 }
             }
